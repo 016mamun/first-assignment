@@ -1,0 +1,284 @@
+
+*{
+    font-family: "Azeret Mono", monospace;
+  }
+  
+  .main{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;  
+      margin-bottom: 40px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+      
+  .download{
+      width: 244px;
+      height: 57px;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+  
+  }
+  
+  .image{
+      background-image: url(/assets/Hero-bg.png);
+      text-align: center;
+      
+  }
+  
+  .introduction{
+      padding: 0px 100px 0px 100px;
+      font-size: 48px;
+      font-weight: 800;
+  }
+  
+  .intro{
+      padding: 0px 230px 0px 230px;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 40px;
+  }
+  
+  .group{
+      margin-top: 25px;
+  
+  }
+  
+  .contact{
+      width: 244px;
+      height: 65px;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 8px;
+      background-color: #0D1321;
+      color: #FFFFFF;
+      margin-bottom: 40px;
+      cursor: pointer;
+  }
+
+  .container{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+
+  .web{
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .development{
+    padding: 0px 230px 0px 230px;
+  }
+  .reasons{
+    padding: 0px 230px 0px 230px;
+    
+  }
+
+  .reason-1{
+    /* margin-top: 90px 0px 90px 0px; */
+    width: 850px;
+    height: 240px;
+  }
+
+  .why-web-development{
+    padding: 30px 0;
+  }
+
+  .why-web-development .reasons {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.why-web-development .reason {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.drive{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: 2px solid #0D1321;
+    cursor: pointer;
+}
+
+.do{
+    font-size: 23px;
+    font-weight: 700;
+    text-align: start; 
+    width: 390px;
+    height: 72px;  
+}
+.great{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;  
+    width: 468px;
+    height: 52px;
+    margin-top: -30px;
+}
+
+.img{
+    text-align: end;
+    width: 274.17px;
+    height: 240px;
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.inspire{
+  font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.life{
+  font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin-bottom: 80px;
+    width: 852px;
+    height: 52px;
+}
+
+.container-2{
+  width: 852px;
+  margin: auto;
+  text-align: center;
+}
+
+.video{
+  margin: auto;
+  width: 1076px;
+}
+
+.target{
+  display: flex;
+  width: 1140px;
+  justify-content: space-around;
+  text-align: left;
+  margin: auto;
+}
+.html{
+  background-color: #f0e7e5;
+  width: 344px;
+  height: 299px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.css{
+  background-color: #cff7f7;
+  width: 344px;
+  height: 299px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.js{
+  background-color: #e5fdc4;
+  width: 344px;
+  height: 299px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.anc{
+  font-size: 16px;
+    font-weight: 600;
+    color: #0D1321;
+    cursor: pointer;
+  
+}
+
+
+
+.font{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.family{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+}
+
+.heading{
+  color: #FFFFFF;
+}
+
+.suggest{
+  width: 548px;
+  height: 57px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 20px;
+  border: #FFFFFF;
+}
+.btn{
+  width: 120px;
+  height: 57px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border-style: double;
+  border: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-3{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    background-image: url(/assets/handshake.jpg);
+    width: 1140px;
+    height: 250px;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 80px;
+    grid-row: auto;
+    padding-top: 70px;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-between;
+  /* width: 1140px; */
+  height: 36px;
+  margin: 70px 0px 0px 0px;
+  background-color: bisque;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.footer-text{
+  padding: 10px 90px;
+}
+.footer-icon{
+  padding: 20px 85px;
+}
+
+.family-1{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0px 200px 30px 200px;
+}
+
