@@ -23,7 +23,7 @@
   }
   
   .image{
-      background-image: url(/assets/Hero-bg.png);
+      background-image: url('../assets/Hero-bg.png');
       text-align: center;
       
   }
@@ -247,7 +247,7 @@
     text-align: center;
     margin-top: 90px;
     margin-bottom: 80px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url('../assets/handshake.jpg');
     width: 1140px;
     height: 250px;
     border-radius: 16px;
